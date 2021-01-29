@@ -25,7 +25,7 @@ ul {
   padding: 6em 8em;
 }
 
-svg {
+.content svg {
   position: absolute;
   top: 0;
   right: 0;
@@ -188,6 +188,13 @@ svg {
 .bodycontent .contentpage .supervisorcard {
   background: #f3f3f3;
   padding: 1em;
+  position: relative;
+}
+
+.bodycontent .contentpage .supervisorcard .addicon {
+  position: absolute;
+  right: 1em;
+  bottom: 1em;
 }
 
 .bodycontent .contentpage .supervisorcard .supervisor {
@@ -240,5 +247,44 @@ svg {
 
 .bodycontent .contentpage .supervisorcard .students ol {
   padding: 0.5em 1em;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: bottom 1em;
+}
+
+.about img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 1em;
+}
+
+.about .desc h5 {
+  font-size: 18px;
+}
+
+.document {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.document .pdfimage {
+  width: 30px;
+  margin-right: 1em;
+}
+
+.document .placement p a {
+  color: blue;
 }
 /*# sourceMappingURL=main.css.map */
