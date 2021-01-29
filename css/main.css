@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #5e0c9d;
+  font-family: "Segoe UI";
+}
+
+a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  padding: 6em 8em;
+}
+
+svg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 687px;
+  z-index: -1;
+}
+
+.leftside {
+  z-index: 1;
+  padding-left: 1em;
+}
+
+.leftside h1 {
+  color: white;
+  padding-bottom: 1em;
+}
+
+.leftside h5 {
+  color: white;
+  text-transform: uppercase;
+}
+
+.leftside p {
+  color: white;
+}
+
+.leftside form {
+  padding: 1em 0;
+  width: 388px;
+}
+
+.leftside form .inputfield {
+  padding: 0.5em 0;
+}
+
+.leftside form .inputfield .inputtext {
+  padding: 0.9em 1em;
+  width: 100%;
+}
+
+.leftside form .form-button {
+  margin-top: 2em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[2];
+      grid-template-columns: repeat(2, auto);
+  grid-gap: 0.5em;
+}
+
+.leftside form .form-button button {
+  padding: 0.9em 1em;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.leftside form .form-button .cancel {
+  background-color: #f51323;
+}
+
+.leftside form .form-button .signup {
+  border: 1px solid white;
+  background-color: #5e0c9d;
+}
+
+.headingsection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 12vh;
+  padding: 0.5em 1em;
+  background-color: #4b0b7b;
+}
+
+.headingsection .name {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.headingsection .accountinfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headingsection .accountinfo img {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  margin-right: 1em;
+}
+
+.bodycontent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  height: 88vh;
+}
+
+.bodycontent .menubar {
+  width: 20%;
+  padding: 1em;
+  background-color: #5e0c9d;
+}
+
+.bodycontent .menubar p {
+  margin-bottom: 1em;
+}
+
+.bodycontent .menubar .navigation ul .active {
+  background: #981bf8;
+}
+
+.bodycontent .menubar .navigation ul li {
+  background: #55118a;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.bodycontent .menubar .navigation ul li:hover {
+  background: #981bf8;
+}
+
+.bodycontent .contentpage {
+  width: 80%;
+  background-color: white;
+  color: #210933;
+  font-weight: 100;
+  padding: 1em;
+  height: 88vh;
+  overflow-y: auto;
+}
+
+.bodycontent .contentpage .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[3];
+      grid-template-columns: repeat(3, auto);
+  grid-gap: 1em;
+  margin-top: 1em;
+}
+
+.bodycontent .contentpage h5 {
+  font-size: 25px;
+}
+
+.bodycontent .contentpage .supervisorcard {
+  background: #f3f3f3;
+  padding: 1em;
+}
+
+.bodycontent .contentpage .supervisorcard .supervisor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bodycontent .contentpage .supervisorcard .supervisor h5,
+.bodycontent .contentpage .supervisorcard .supervisor p {
+  color: #635e67;
+}
+
+.bodycontent .contentpage .supervisorcard .supervisor .title {
+  color: #5e0c9d;
+}
+
+.bodycontent .contentpage .supervisorcard .supervisor h5 {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 0.2em 0;
+}
+
+.bodycontent .contentpage .supervisorcard .supervisor img {
+  width: 97px;
+  height: 97px;
+  border-radius: 50%;
+  margin-left: 1em;
+}
+
+.bodycontent .contentpage .supervisorcard .students {
+  margin-top: 1em;
+}
+
+.bodycontent .contentpage .supervisorcard .students .title {
+  color: #635e67;
+}
+
+.bodycontent .contentpage .supervisorcard .students h5 {
+  font-size: 14px;
+  text-transform: capitalize;
+  padding: 0.2em 0;
+}
+
+.bodycontent .contentpage .supervisorcard .students ol {
+  padding: 0.5em 1em;
+}
+/*# sourceMappingURL=main.css.map */

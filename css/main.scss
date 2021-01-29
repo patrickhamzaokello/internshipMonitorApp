@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #5e0c9d;
+  font-family: "Segoe UI";
+}
+
+a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  padding: 6em 8em;
+}
+
+svg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 687px;
+  z-index: -1;
+}
+
+.leftside {
+  z-index: 1;
+  padding-left: 1em;
+  h1 {
+    color: white;
+    padding-bottom: 1em;
+  }
+
+  h5 {
+    color: white;
+    text-transform: uppercase;
+  }
+
+  p {
+    color: white;
+  }
+
+  form {
+    padding: 1em 0;
+    width: 388px;
+
+    .inputfield {
+      padding: 0.5em 0;
+
+      .inputtext {
+        padding: 0.9em 1em;
+        width: 100%;
+      }
+    }
+
+    .form-button {
+      margin-top: 2em;
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+      grid-gap: 0.5em;
+      button {
+        padding: 0.9em 1em;
+        border: none;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+
+      .cancel {
+        background-color: #f51323;
+      }
+      .signup {
+        border: 1px solid white;
+        background-color: #5e0c9d;
+      }
+    }
+  }
+}
+
+.headingsection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 12vh;
+  padding: 0.5em 1em;
+  background-color: #4b0b7b;
+
+  .name {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 100;
+  }
+
+  .accountinfo {
+    display: flex;
+    color: white;
+    align-items: center;
+
+    img {
+      width: 62px;
+      height: 62px;
+      border-radius: 50%;
+      margin-right: 1em;
+    }
+  }
+}
+
+.bodycontent {
+  display: flex;
+  color: white;
+  height: 88vh;
+
+  .menubar {
+    width: 20%;
+    padding: 1em;
+    background-color: #5e0c9d;
+
+    p {
+      margin-bottom: 1em;
+    }
+
+    .navigation {
+      ul {
+        .active {
+          background: #981bf8;
+        }
+        li {
+          background: #55118a;
+          padding: 1em;
+          margin-bottom: 1em;
+        }
+
+        li:hover {
+          background: #981bf8;
+        }
+      }
+    }
+  }
+  .contentpage {
+    width: 80%;
+    background-color: white;
+    color: #210933;
+    font-weight: 100;
+    padding: 1em;
+    height: 88vh;
+    overflow-y: auto;
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(3, auto);
+      grid-gap: 1em;
+      margin-top: 1em;
+    }
+
+    h5 {
+      font-size: 25px;
+    }
+
+    .supervisorcard {
+      background: #f3f3f3;
+      padding: 1em;
+
+      .supervisor {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h5,
+        p {
+          color: #635e67;
+        }
+
+        .title {
+          color: #5e0c9d;
+        }
+
+        h5 {
+          font-size: 14px;
+          text-transform: uppercase;
+          padding: 0.2em 0;
+        }
+
+        img {
+          width: 97px;
+          height: 97px;
+          border-radius: 50%;
+          margin-left: 1em;
+        }
+      }
+
+      .students {
+        margin-top: 1em;
+        .title {
+          color: #635e67;
+        }
+        h5 {
+          font-size: 14px;
+          text-transform: capitalize;
+          padding: 0.2em 0;
+        }
+        ol {
+          padding: 0.5em 1em;
+        }
+      }
+    }
+  }
+}
