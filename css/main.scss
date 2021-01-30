@@ -748,13 +748,14 @@ ul {
   width: fit-content;
   .activitybutton {
     .addbutton {
-      border: 1px solid #05418f;
+      border: 1px solid #5e0c9d;
       color: #5e0c9d;
       outline: #5e0c9d;
     }
 
     .addbutton:hover {
       background: #5e0c9d;
+      color: white;
     }
     .cancelbutton {
       border: 1px solid #f51323;
@@ -764,6 +765,7 @@ ul {
 
     .cancelbutton:hover {
       background: #f51323;
+      color: white;
     }
     button {
       display: block;

@@ -742,15 +742,25 @@ ul {
 }
 
 .newactivity .activitybutton .addbutton {
-  border: 1px solid #05418f;
+  border: 1px solid #5e0c9d;
   color: #5e0c9d;
   outline: #5e0c9d;
+}
+
+.newactivity .activitybutton .addbutton:hover {
+  background: #5e0c9d;
+  color: white;
 }
 
 .newactivity .activitybutton .cancelbutton {
   border: 1px solid #f51323;
   outline: #f51323;
   color: #f51323;
+}
+
+.newactivity .activitybutton .cancelbutton:hover {
+  background: #f51323;
+  color: white;
 }
 
 .newactivity .activitybutton button {
