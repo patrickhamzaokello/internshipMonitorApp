@@ -154,6 +154,25 @@ ul {
     height: 88vh;
     overflow-y: auto;
 
+    .overall {
+      display: flex;
+      justify-content: space-between;
+
+      .taskdiv {
+        padding-right: 4em;
+        li {
+          border: #707070 solid 1px;
+          padding: 0.5em 1em;
+          margin-bottom: 0.5em;
+          color: #210933;
+        }
+        p {
+          color: #5e0c9d;
+          margin-bottom: 1em;
+          font-weight: bold;
+        }
+      }
+    }
     .container {
       display: grid;
       grid-template-columns: repeat(3, auto);
@@ -169,6 +188,7 @@ ul {
       background: #f3f3f3;
       padding: 1em;
       position: relative;
+
       .addicon {
         position: absolute;
         right: 1em;
@@ -718,5 +738,62 @@ ul {
     opacity: 0;
     padding: 0px;
     height: 0px;
+  }
+}
+.newactivity {
+  padding: 2em;
+  background-color: #f3f3f3;
+  margin: 1em 0;
+  display: flex;
+  width: fit-content;
+  .activitybutton {
+    .addbutton {
+      border: 1px solid #05418f;
+      color: #5e0c9d;
+      outline: #5e0c9d;
+    }
+    .cancelbutton {
+      border: 1px solid #f51323;
+      outline: #f51323;
+      color: #f51323;
+    }
+    button {
+      display: block;
+      margin-bottom: 1em;
+      width: 100%;
+      padding: 0.5em 2em;
+      text-transform: uppercase;
+    }
+  }
+  .activityinput {
+    margin-right: 2em;
+    h1 {
+      text-transform: uppercase;
+      font-size: 18px;
+      margin-bottom: 1em;
+    }
+  }
+  form {
+    label {
+      display: block;
+      font-weight: 500;
+      color: gray;
+    }
+
+    input {
+      padding: 1em 1em;
+      margin-top: 0.4em;
+      border: none;
+      outline: lightblue;
+      width: 100%;
+    }
+
+    .date {
+      display: flex;
+      margin-top: 1em;
+      .startdate {
+        margin-right: 1em;
+      }
+    }
   }
 }

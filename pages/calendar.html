@@ -38,8 +38,53 @@
 
       <div class="contentpage">
         <h5>Calender</h5>
+        <div class="overall">
+          <div class="calenderdiv">
+            <div class="newactivity">
+              <div class="activityinput">
+                <h1>New Activity</h1>
+                <form action="">
+                  <label for="activityname">Name</label>
+                  <input
+                    class="activityname"
+                    type="text"
+                    name="activityname"
+                    placeholder="Internship Timeline"
+                  />
+                  <div class="date">
+                    <div class="startdate">
+                      <label for="startdateinput">Start Date</label>
+                      <input class="startdateinput" type="date" />
+                    </div>
+                    <div class="enddate">
+                      <label for="enddateinput">End Date</label>
+                      <input class="enddateinput" type="date" />
+                    </div>
+                  </div>
+                </form>
+              </div>
 
-        <div id="calendar"></div>
+              <div class="activitybutton">
+                <button class="addbutton">add</button>
+                <button class="cancelbutton">cancel</button>
+              </div>
+            </div>
+
+            <div id="calendar"></div>
+          </div>
+          <div class="taskdiv">
+            <h5>Todays task</h5>
+            <p>Thursday - 05/07/2021</p>
+            <div class="tasks">
+              <ul>
+                <li>9:00am to 10:00am - Meeting at Global</li>
+                <li>12:00pm to 1:00pm - Students Review</li>
+                <li>2:00pm to 3:00pm - Break</li>
+                <li>4:00pm to 6:00pm - Daily Review</li>
+              </ul>
+            </div>
+          </div>
+        </div>
         <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
         <script src="../js/main.js"></script>
       </div>

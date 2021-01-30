@@ -172,6 +172,32 @@ ul {
   overflow-y: auto;
 }
 
+.bodycontent .contentpage .overall {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bodycontent .contentpage .overall .taskdiv {
+  padding-right: 4em;
+}
+
+.bodycontent .contentpage .overall .taskdiv li {
+  border: #707070 solid 1px;
+  padding: 0.5em 1em;
+  margin-bottom: 0.5em;
+  color: #210933;
+}
+
+.bodycontent .contentpage .overall .taskdiv p {
+  color: #5e0c9d;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
 .bodycontent .contentpage .container {
   display: -ms-grid;
   display: grid;
@@ -701,5 +727,72 @@ ul {
     padding: 0px;
     height: 0px;
   }
+}
+
+.newactivity {
+  padding: 2em;
+  background-color: #f3f3f3;
+  margin: 1em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.newactivity .activitybutton .addbutton {
+  border: 1px solid #05418f;
+  color: #5e0c9d;
+  outline: #5e0c9d;
+}
+
+.newactivity .activitybutton .cancelbutton {
+  border: 1px solid #f51323;
+  outline: #f51323;
+  color: #f51323;
+}
+
+.newactivity .activitybutton button {
+  display: block;
+  margin-bottom: 1em;
+  width: 100%;
+  padding: 0.5em 2em;
+  text-transform: uppercase;
+}
+
+.newactivity .activityinput {
+  margin-right: 2em;
+}
+
+.newactivity .activityinput h1 {
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-bottom: 1em;
+}
+
+.newactivity form label {
+  display: block;
+  font-weight: 500;
+  color: gray;
+}
+
+.newactivity form input {
+  padding: 1em 1em;
+  margin-top: 0.4em;
+  border: none;
+  outline: lightblue;
+  width: 100%;
+}
+
+.newactivity form .date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1em;
+}
+
+.newactivity form .date .startdate {
+  margin-right: 1em;
 }
 /*# sourceMappingURL=main.css.map */
