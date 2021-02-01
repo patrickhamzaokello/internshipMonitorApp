@@ -1,13 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
   background-color: #5e0c9d;
-  font-family: "Segoe UI";
+  font-family: "Poppins", sans-serif;
 }
 
 a {
